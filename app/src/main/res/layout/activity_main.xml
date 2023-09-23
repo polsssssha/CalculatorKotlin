@@ -87,7 +87,7 @@
                 />
             <TextView
                 style="@style/ActionButton"
-                android:id="@+id/btn_mult"
+                android:id="@+id/mult_btn"
                 android:text="*"
 
                 />
