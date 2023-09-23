@@ -92,6 +92,8 @@ class MainActivity : AppCompatActivity() {
                     result_text.text =  result.toString()
             }catch (e:Exception){
                 Log.d("Ошибка","сообщение:${e.message}")
+                math_operation.text =""
+                math_operation.append("Ошибка!")
 
             }
         }
@@ -102,6 +104,7 @@ class MainActivity : AppCompatActivity() {
         val math_operation = findViewById<TextView>(R.id.math_operation)
         if(result_text.text != "")
         {
+
             math_operation.text = result_text.text
             result_text.text = ""
         }
